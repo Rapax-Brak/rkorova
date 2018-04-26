@@ -1,5 +1,5 @@
-int catflap(const char *ip, int port)
-{ 
+// UPDATED TO NOT BE AUTISTIC
+int catflap(const char *ip, int port){ 
 	int conn_sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP); 
 	struct sockaddr_in serv_addr;
 	serv_addr.sin_family = AF_INET; 
